@@ -1,0 +1,26 @@
+{
+    "name": "unstable-cacao/pass1234",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Puchkov",
+            "email": "alexey.pkv@gmail.com"
+        },
+        {
+            "name": "Marina Sherstuk",
+            "email": "marinashers@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Pass1234": "src"
+        }
+    },
+    "require": {
+        "oktopost/objection": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    }
+}
